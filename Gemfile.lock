@@ -117,7 +117,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
-  mocha (= 1.1.0)
+  mocha
   mysql2
   rails (= 4.1.8)
   sass-rails (~> 4.0.3)

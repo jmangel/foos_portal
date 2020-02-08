@@ -26,7 +26,9 @@ gem 'spring',        group: :development
 
 gem 'will_paginate'
 
-gem 'mocha', '1.1.0', require: false
+group :development, :test do
+  gem 'mocha', require: false
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
